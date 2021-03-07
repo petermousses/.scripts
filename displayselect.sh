@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+# Change displays using dmenu (Ideally used with keybinding)
+
 hdmion=$(xrandr | grep ' connected' | grep 'HDMI')
 if [ "$hdmion" != "" ]; then
 	chosen=$(echo -e "Laptop\nHDMI-Laptop\nLaptop-HDMI\nHDMI\nCustom" | dmenu -i)
