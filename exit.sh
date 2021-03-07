@@ -10,3 +10,4 @@ case "$chosen" in
 	Shutdown) sh /home/peterm/.scripts/prompt "Are you sure you want to shut down now?" "shutdown now" ;;
 	Reboot) sh /home/peterm/.scripts/prompt "Are you sure you want to reboot now?" "shutdown -r now" ;;
 esac
+read -s -n 1
