@@ -11,5 +11,5 @@ if [ "$hdmion" != "" ]; then
 		Custom) arandr ;;
 	esac
 else
-	xrandr --output HDMI1 --off
+	xrandr --output eDP1 --auto; xrandr --output HDMI1 --off
 fi
