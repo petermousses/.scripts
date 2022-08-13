@@ -1,5 +1,5 @@
 Propgram	|	Function
 --------------------------------
 prompt		|	Desplays message $1 and executes $2 based on No/yes(only options)
-dsiplatselect	|	Choose which display to use. Has some presets and custom configuration
+dsiplayselect	|	Choose which display to use. Has some presets and custom configuration
 exit		|	Locking manager
